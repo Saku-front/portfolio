@@ -1,32 +1,87 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <meta name="viewport"
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi's Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+        body {background:linear-gradient(135deg,#74ebd5,#ACB6E5);color:#fff;}
+        header {background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);display:flex;justify-content:center;align-items:center;padding:15px;box-shadow:0 4px 15px rgba(0,0,0,0.2);}
+        header h1 {font-size:24px;}
+        main {padding:40px 10%;text-align:center;}
+        h2 {font-size:32px;margin-bottom:25px;}
+        .project-container {display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;}
+        .project-card {background:rgba(255,255,255,0.15);backdrop-filter:blur(10px);padding:20px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,0.3);transition:0.3s;}
+        .project-card:hover {transform:scale(1.05);box-shadow:0 15px 30px rgba(0,0,0,0.4);}
+        .project-card h3 {font-size:22px;margin-bottom:10px;color:white;}
+        .project-card p {font-size:15px;color:#e3f8ff;margin-bottom:10px;}
+        .project-card a {display:inline-block;margin-top:10px;padding:10px 18px;background:#ffed4a;color:#333;font-weight:bold;border-radius:10px;text-decoration:none;transition:0.3s;}
+        .project-card a:hover {background:#ffe100;}
+        .btn-back {display:inline-block;margin-top:40px;padding:12px 25px;background:#ffed4a;color:#333;font-weight:bold;border-radius:10px;text-decoration:none;transition:0.3s;}
+        .btn-back:hover {background:#ffe100;}
+        footer {margin-top:40px;text-align:center;padding:15px;background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);font-size:14px;}
+    </style>
+</head>
+<body>
     <header>
-        <title>My html projects</title>
+        <h1>💻 Sakshi's Projects</h1>
     </header>
-    <body>
-        <main>
-        <h1><u>Sakshi's HTML projects</h1></u>
 
-        <br />
-            <h2><big>1.Resume webpage</big></h2>
-            <p> <big>A aimple resume created using only HTML.It includes a sections like personal details,education,skills and contact informaion, experiences</p></big>
-            <p><b><big>Technologies Used</b>=HTML</p></big>
-            <p><big><b>Date</b>=June 2025</big></p>
-            <br />
-            <hr>
-            <h2><big>2.Student Marksheet</big></h2>
-            <p><big>A basic webpage showing student marks using a table.practiced html table tags with rows and columns</big></p>
-            <p><big><b>Technologies used</b>=HTML</big></p>
-            <p><big><b>Date</b>=June 2025</big></p>
-            <br />
-            </main>
-            <footer>
-                <pre>
-<big><b><a href="C:\Users\USER\Downloads\gen-reg\General-Register\portfolio\index.html">Back to Index</a></b></big>
-            </pre>
-            </footer>  
-        
-    </body>
+    <main>
 
+        <!-- FEATURED PROJECTS -->
+        <h2>⭐ Featured Projects</h2>
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Amazon Shopping Website Clone</h3>
+                <p>A fully responsive e-commerce website clone created using HTML, CSS, and JS.</p>
+                <a href="https://saku-front.github.io/amazon/" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>3D Solar System Model</h3>
+                <p>Interactive rotating solar system using HTML, CSS animations & JavaScript.</p>
+                <a href="https://saku-front.github.io/Solar-System/" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Virtual AI Assistant Website</h3>
+                <p>A voice-enabled AI assistant interface with smooth UI and interactive design.</p>
+                <a href="https://saku-front.github.io/Virtual-AI/" target="_blank">View Project</a>
+            </div>
+        </div>
+
+        <!-- MINI PROJECTS -->
+        <h2 style="margin-top:50px;">✨ Mini / Practice Projects</h2>
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Travel / Registration Form</h3>
+                <p>A clean responsive travel booking / inquiry form design.</p>
+                <a href="https://saku-front.github.io/Travel-Form/" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>E-Visiting Card</h3>
+                <p>Professional digital business card for identity sharing.</p>
+                <a href="https://saku-front.github.io/visiting-card/" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Portfolio showcasing skills, projects & personal profile.</p>
+                <a href="index.html">View Project</a>
+            </div>
+        </div>
+
+        <a href="index.html" class="btn-back">⬅ Back to Home</a>
+    </main>
+
+    <footer>
+        &copy; 2025 Sakshi Mule | All Rights Reserved
+    </footer>
+</body>
 </html>
